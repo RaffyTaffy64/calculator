@@ -28,9 +28,9 @@ function calculate(expression) {
   const operator = token[1]
   const num1 = Number(token[0])
   const num2 = Number(token[2])
-  Number.isNaN() {
-    if Number.isNaN = false
-      return alert(`Invalid Entry. Please use a number.`)
+  if (Number.isNaN(num1) || Number.isNaN(num2)) {
+    alert(`Not a number! Try again.`)
+    return
   }
 
     if (operator === `+`) {
