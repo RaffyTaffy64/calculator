@@ -22,11 +22,16 @@ function sqrt (num) {
 }
 
 function calculate(expression) {
+  
   const token = expression.split(`_`)
  
   const operator = token[1]
   const num1 = Number(token[0])
   const num2 = Number(token[2])
+  Number.isNaN() {
+    if Number.isNaN = false
+      return alert(`Invalid Entry. Please use a number.`)
+  }
 
     if (operator === `+`) {
       return add (num1, num2)
